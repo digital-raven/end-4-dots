@@ -530,13 +530,13 @@ in
       '';
     };
 
-    gtk = {
-      enable = true;
-      iconTheme = {
-        package = pkgs.adwaita-icon-theme;
-        name = "Adwaita";
-      };
-    };
+    #gtk = {
+    #  enable = true;
+    #  iconTheme = {
+    #    package = pkgs.adwaita-icon-theme;
+    #    name = "Adwaita";
+    #  };
+    #};
     qt = {
       enable = true;
       platformTheme.name = "qt5ct";
